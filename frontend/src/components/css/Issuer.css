@@ -1,0 +1,337 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 以上為Reset CSS */
+
+/* 以下為專案CSS */
+body {
+    background-color: #FDF6E7;
+    font-family: 微軟正黑體;
+}
+
+.wrap {
+    margin: 0 auto;
+    background-color: #fff;
+    /* width: 450px; */
+    /* height: 500px; */
+    border-style: solid;
+    /* border-color: #000; */
+    /* border-width: 3px; */
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+}
+
+.wrap2 {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border-style: solid;
+    border-color: #000;
+    border-width: 3px; */
+}
+
+.wrap3 {
+    float: right;
+}
+
+.inputSize {
+    margin-bottom: 25px;
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.yesBtn,
+.noBtn,
+.choose {
+    margin-top: 20px;
+    display: inline-block;
+    width: 50px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.diy {
+    margin-top: 20px;
+    margin-right: 25px;
+    display: block;
+    width: 50px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.inputColumn,
+.square {
+    margin-top: 20px;
+    display: inline-block;
+    width: 300px;
+    /* height: 200px; */
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    /* text-align: center; */
+    border-radius: 10px;
+    padding: 15px;
+    color: gray;
+    cursor: pointer;
+    border-style: dashed;
+}
+
+.nextBtn2 {
+    margin-top: 30px;
+    display: block;
+    width: 50px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nextBtn3 {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.model1,
+.model2,
+.model3,
+.model4 {
+    margin-top: 20px;
+    display: inline-block;
+    width: 50px;
+    border-style: solid;
+    background-color: #003060;
+    color: white;
+    border-color: #003060;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.choseBtn {
+    margin-top: 30px;
+    margin-left: 170px;
+    display: block;
+    width: 50px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.createBtn {
+    margin-top: 10px;
+    display: block;
+    width: 100px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #003060;
+    color: white;
+    cursor: pointer;
+
+}
+
+.deleteBtn {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    width: 100px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #AE0000;
+    color: white;
+    corsor: pointer;
+}
+
+.sureBtn,
+.nopeBtn {
+    display: inline-block;
+    margin-top: 10px;
+    width: 50px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    corsor: pointer;
+}
+
+/* ::file-selector-button {
+    display: none;
+} */
